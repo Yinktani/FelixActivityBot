@@ -422,7 +422,6 @@ Available Commands:
 Admin Commands:
 /export_data - Export activity data to CSV
 /daily_report - Daily activity breakdown
-/list_groups - List all groups using the bot
 
 The bot automatically tracks all messages to help identify the most active and engaged members.
 
@@ -691,4 +690,5 @@ def main():
         logger.error(f"Failed to start bot: {e}")
 
 if __name__ == '__main__':
+
     main()
